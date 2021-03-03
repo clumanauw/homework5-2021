@@ -80,13 +80,17 @@ nav a:hover {
 }
 /*Req 4*/
 /*Write selector/rule property to style all elements when in focus*/
+*:focus{
+  border-top: 2px dashed;
+  border-bottom:2px dashed;
+}
 
 /*Req 5*/
 .container{
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
-  grid-auto-rows: auto;
-  grid-gap: 20px;
+  grid-template-rows: auto auto auto auto;
+  grid-row-gap: 20px;
 }
 
 header{
