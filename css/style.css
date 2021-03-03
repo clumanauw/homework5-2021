@@ -151,7 +151,7 @@ header{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  vertical-align: middle;
+  align-self: center;
 }
 
 
